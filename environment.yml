@@ -1,0 +1,15 @@
+name: stock_analysis_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - yfinance
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+    - nselib
